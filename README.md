@@ -32,9 +32,11 @@ TailAdmin provides essential UI components and layouts for building feature-rich
 
 ### Other Versions
 
-* [HTML Version](https://github.com/TailAdmin/tailadmin-free-tailwind-dashboard-template)
-* [React Version](https://github.com/TailAdmin/free-react-tailwind-admin-dashboard)
-* [Vue.js Version](https://github.com/TailAdmin/vue-tailwind-admin-dashboard)
+- [Next.js Version](https://github.com/TailAdmin/free-nextjs-admin-dashboard)
+- [React.js Version](https://github.com/TailAdmin/free-react-tailwind-admin-dashboard)
+- [Vue.js Version](https://github.com/TailAdmin/vue-tailwind-admin-dashboard)
+- [Angular Version](https://github.com/TailAdmin/free-angular-tailwind-dashboard)
+- [Laravel Version](https://github.com/TailAdmin/tailadmin-laravel)
 
 ## Installation
 
@@ -106,6 +108,11 @@ All components are built with React and styled using Tailwind CSS for easy custo
 To learn more about pro version features and pricing, visit our [pricing page](https://tailadmin.com/pricing).
 
 ## Changelog
+
+### Version 2.2.2 - [December 30, 2025]
+
+* Fixed date picker positioning and functionality in Statistics Chart.
+
 
 ### Version 2.1.0 - [November 15, 2025]
 
