@@ -30,7 +30,20 @@ const navItems: NavItem[] = [
   {
     icon: <GridIcon />,
     name: "Dashboard",
-    subItems: [{ name: "Ecommerce", path: "/", pro: false }],
+    path: "/",
+  },
+  {
+    icon: <UserCircleIcon />,
+    name: "Prospects",
+    subItems: [
+      { name: "All Prospects", path: "/prospects", pro: false },
+      { name: "New Prospect", path: "/prospects/new", pro: false },
+    ],
+  },
+  {
+    icon: <GridIcon />,
+    name: "BDE Dashboard",
+    path: "/bde-dashboard",
   },
   {
     icon: <CalenderIcon />,
@@ -38,51 +51,32 @@ const navItems: NavItem[] = [
     path: "/calendar",
   },
   {
-    icon: <UserCircleIcon />,
-    name: "User Profile",
-    path: "/profile",
-  },
-
-  {
-    name: "Forms",
-    icon: <ListIcon />,
-    subItems: [{ name: "Form Elements", path: "/form-elements", pro: false }],
+    icon: <PieChartIcon />,
+    name: "Team Lead",
+    path: "/team-lead",
   },
   {
-    name: "Tables",
-    icon: <TableIcon />,
-    subItems: [{ name: "Basic Tables", path: "/basic-tables", pro: false }],
-  },
-  {
-    name: "Pages",
-    icon: <PageIcon />,
+    name: "Reports",
+    icon: <PieChartIcon />,
     subItems: [
-      { name: "Blank Page", path: "/blank", pro: false },
-      { name: "404 Error", path: "/error-404", pro: false },
+      { name: "All Reports", path: "/reports", pro: false },
+      { name: "Custom Reports", path: "/reports/custom", pro: false },
+      { name: "Data Visualization", path: "/reports/visualization", pro: false },
+      { name: "Forecast & Predictions", path: "/reports/forecast", pro: false },
     ],
   },
 ];
 
 const othersItems: NavItem[] = [
   {
-    icon: <PieChartIcon />,
-    name: "Charts",
-    subItems: [
-      { name: "Line Chart", path: "/line-chart", pro: false },
-      { name: "Bar Chart", path: "/bar-chart", pro: false },
-    ],
+    icon: <TableIcon />,
+    name: "Tables",
+    subItems: [{ name: "Basic Tables", path: "/basic-tables", pro: false }],
   },
   {
-    icon: <BoxCubeIcon />,
-    name: "UI Elements",
-    subItems: [
-      { name: "Alerts", path: "/alerts", pro: false },
-      { name: "Avatar", path: "/avatars", pro: false },
-      { name: "Badge", path: "/badge", pro: false },
-      { name: "Buttons", path: "/buttons", pro: false },
-      { name: "Images", path: "/images", pro: false },
-      { name: "Videos", path: "/videos", pro: false },
-    ],
+    icon: <ListIcon />,
+    name: "Forms",
+    subItems: [{ name: "Form Elements", path: "/form-elements", pro: false }],
   },
   {
     icon: <PlugInIcon />,
